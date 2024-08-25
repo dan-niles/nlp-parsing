@@ -1,5 +1,3 @@
-INDEX_NO = ""
-
 import nltk
 from nltk import CFG, Tree
 
@@ -73,6 +71,6 @@ def parse_sentences_to_file(sentences, filename):
             if i+1 != len(sentences): file.write("\n" + "-" * 40)
 
 # Parse the sentences and write to a file
-output_file = f'/content/{INDEX_NO}_CFG_Parse.txt'
+output_file = f'/content/CFG_Parse.txt'
 parse_sentences_to_file(sentences, output_file)
 
