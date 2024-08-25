@@ -1,0 +1,43 @@
+Chart	Step	Rule	Position	Refernce	Action
+0	S0	?->.S	[0,0]	[ ]	Dummy Start State
+0	S1	S->.NP VP	[0,0]	[ ]	Predictor
+0	S2	S->.NP	[0,0]	[ ]	Predictor
+0	S3	S->.PP	[0,0]	[ ]	Predictor
+0	S4	S->.VP	[0,0]	[ ]	Predictor
+0	S5	NP->.DT N	[0,0]	[ ]	Predictor
+0	S6	NP->.DT JJ N	[0,0]	[ ]	Predictor
+0	S7	NP->.N	[0,0]	[ ]	Predictor
+0	S8	PP->.P NP	[0,0]	[ ]	Predictor
+0	S9	PP->.P VP	[0,0]	[ ]	Predictor
+0	S10	VP->.V	[0,0]	[ ]	Predictor
+0	S11	VP->.NP V	[0,0]	[ ]	Predictor
+0	S12	VP->.V NP	[0,0]	[ ]	Predictor
+0	S13	VP->.V PP	[0,0]	[ ]	Predictor
+1	S14	N->Amal.	[0,1]	[ ]	Scanner
+1	S15	NP->N.	[0,1]	[S14]	Completer
+1	S16	S->NP.VP	[0,1]	[S15]	Completer
+1	S17	S->NP.	[0,1]	[S15]	Completer
+1	S18	VP->NP.V	[0,1]	[S15]	Completer
+1	S19	VP->.V	[1,1]	[ ]	Predictor
+1	S20	VP->.NP V	[1,1]	[ ]	Predictor
+1	S21	VP->.V NP	[1,1]	[ ]	Predictor
+1	S22	VP->.V PP	[1,1]	[ ]	Predictor
+2	S23	V->made.	[1,2]	[ ]	Scanner
+2	S24	VP->NP V.	[0,2]	[S15,S23]	Completer
+2	S25	VP->V.	[1,2]	[S23]	Completer
+2	S26	VP->V.NP	[1,2]	[S23]	Completer
+2	S27	VP->V.PP	[1,2]	[S23]	Completer
+2	S28	S->VP.	[0,2]	[S24]	Completer
+2	S29	S->NP VP.	[0,2]	[S15,S25]	Completer
+2	S30	NP->.DT N	[2,2]	[ ]	Predictor
+2	S31	NP->.DT JJ N	[2,2]	[ ]	Predictor
+2	S32	NP->.N	[2,2]	[ ]	Predictor
+2	S33	PP->.P NP	[2,2]	[ ]	Predictor
+2	S34	PP->.P VP	[2,2]	[ ]	Predictor
+3	S35	DT->a.	[2,3]	[ ]	Scanner
+3	S36	NP->DT.N	[2,3]	[S35]	Completer
+3	S37	NP->DT.JJ N	[2,3]	[S35]	Completer
+4	S38	N->call.	[3,4]	[ ]	Scanner
+4	S39	NP->DT N.	[2,4]	[S35,S38]	Completer
+4	S40	VP->V NP.	[1,4]	[S23,S39]	Completer
+4	S41	S->NP VP.	[0,4]	[S15,S40]	Completer

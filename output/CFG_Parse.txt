@@ -1,0 +1,69 @@
+----------------------------------------
+Sentence #1: from Colombo
+(S PP)
+(S (PP P NP))
+(S (PP (P from) NP))
+(S (PP (P from) (NP N)))
+(S (PP (P from) (NP (N Colombo))))
+----------------------------------------
+Sentence #2: Amal called Nimal
+(S NP VP)
+(S (NP N) VP)
+(S (NP (N Amal)) VP)
+(S (NP (N Amal)) (VP V NP))
+(S (NP (N Amal)) (VP (V called) NP))
+(S (NP (N Amal)) (VP (V called) (NP N)))
+(S (NP (N Amal)) (VP (V called) (NP (N Nimal))))
+----------------------------------------
+Sentence #3: from a flight
+(S PP)
+(S (PP P NP))
+(S (PP (P from) NP))
+(S (PP (P from) (NP DT N)))
+(S (PP (P from) (NP (DT a) N)))
+(S (PP (P from) (NP (DT a) (N flight))))
+----------------------------------------
+Sentence #4: Amal made a call
+(S NP VP)
+(S (NP N) VP)
+(S (NP (N Amal)) VP)
+(S (NP (N Amal)) (VP V NP))
+(S (NP (N Amal)) (VP (V made) NP))
+(S (NP (N Amal)) (VP (V made) (NP DT N)))
+(S (NP (N Amal)) (VP (V made) (NP (DT a) N)))
+(S (NP (N Amal)) (VP (V made) (NP (DT a) (N call))))
+----------------------------------------
+Sentence #5: Nimal wanted a morning flight
+(S NP VP)
+(S (NP N) VP)
+(S (NP (N Nimal)) VP)
+(S (NP (N Nimal)) (VP V NP))
+(S (NP (N Nimal)) (VP (V wanted) NP))
+(S (NP (N Nimal)) (VP (V wanted) (NP DT JJ N)))
+(S (NP (N Nimal)) (VP (V wanted) (NP (DT a) JJ N)))
+(S (NP (N Nimal)) (VP (V wanted) (NP (DT a) (JJ morning) N)))
+(S (NP (N Nimal)) (VP (V wanted) (NP (DT a) (JJ morning) (N flight))))
+----------------------------------------
+Sentence #6: leaving on a jet plane
+(S VP)
+(S (VP V PP))
+(S (VP (V leaving) PP))
+(S (VP (V leaving) (PP P NP)))
+(S (VP (V leaving) (PP (P on) NP)))
+(S (VP (V leaving) (PP (P on) (NP DT JJ N))))
+(S (VP (V leaving) (PP (P on) (NP (DT a) JJ N))))
+(S (VP (V leaving) (PP (P on) (NP (DT a) (JJ jet) N))))
+(S (VP (V leaving) (PP (P on) (NP (DT a) (JJ jet) (N plane)))))
+----------------------------------------
+Sentence #7: Kamal wanted to call Nimal
+(S NP VP)
+(S (NP N) VP)
+(S (NP (N Kamal)) VP)
+(S (NP (N Kamal)) (VP V PP))
+(S (NP (N Kamal)) (VP (V wanted) PP))
+(S (NP (N Kamal)) (VP (V wanted) (PP P VP)))
+(S (NP (N Kamal)) (VP (V wanted) (PP (P to) VP)))
+(S (NP (N Kamal)) (VP (V wanted) (PP (P to) (VP V NP))))
+(S (NP (N Kamal)) (VP (V wanted) (PP (P to) (VP (V call) NP))))
+(S (NP (N Kamal)) (VP (V wanted) (PP (P to) (VP (V call) (NP N)))))
+(S (NP (N Kamal)) (VP (V wanted) (PP (P to) (VP (V call) (NP (N Nimal))))))
