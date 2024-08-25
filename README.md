@@ -1,6 +1,6 @@
 # NLP Parsers
 
-This repository contains a two parsers I used in CS4661: Natural Language Processing. They are:
+This repository contains a two parsers I used for assignments in CS4661: Natural Language Processing. They are:
 
 1. CFG Parser
 2. Earley Parser
