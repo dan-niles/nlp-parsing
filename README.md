@@ -28,7 +28,10 @@ Sentence #2: Amal called Nimal
 (S (NP (N Amal)) (VP (V called) (NP N)))
 (S (NP (N Amal)) (VP (V called) (NP (N Nimal))))
 ----------------------------------------
+...
 ```
+
+Look at [CFG_Parse.txt](https://github.com/dan-niles/nlp-parsing/blob/main/output/CFG_Parse.txt) for the full output.
 
 ## Earley Parser
 
@@ -37,6 +40,8 @@ The Earley parser is a bottom-up parser that uses the Earley algorithm to parse 
 The output looks like this:
 
 <img width="431" alt="image" src="https://github.com/user-attachments/assets/35804db2-19d8-4f5a-8a40-b2df43e31b49">
+
+Look at [Early_Parse.tsv](https://github.com/dan-niles/nlp-parsing/blob/main/output/Early_Parse.tsv) for the full output.
 
 ### Acknowledgements
 
