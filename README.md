@@ -37,7 +37,7 @@ Look at [CFG_Parse.txt](https://github.com/dan-niles/nlp-parsing/blob/main/outpu
 
 The Earley parser is a bottom-up parser that uses the Earley algorithm to parse a sentence. The Earley algorithm is a dynamic programming algorithm that uses a chart to parse a sentence.
 
-The output looks like this:
+The output (tsv file) looks like this:
 
 <img width="431" alt="image" src="https://github.com/user-attachments/assets/35804db2-19d8-4f5a-8a40-b2df43e31b49">
 
